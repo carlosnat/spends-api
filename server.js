@@ -8,6 +8,12 @@ app.get('/', function(req, res) {
   });
 });
 
+app.patch('/', function(req, res) {
+  res.send({
+    "Output" : "Hello World!"
+  });
+});
+
 app.post('/', function(req, res) {
   res.send({
     "Output" : "Hello World!"
